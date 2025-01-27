@@ -1,8 +1,8 @@
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/index.js",
   output: {
-    path: `${__dirname}/dist`,
+    path: `${__dirname}/public`,
     filename: "bundle.js",
   },
   devServer: {
